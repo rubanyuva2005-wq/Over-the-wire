@@ -1,0 +1,15 @@
+# Bandit Level 28 → Level 29
+
+## What I did
+I checked the commit history of a Git repository to find hidden information.
+
+## Commands I used
+git log
+git show <commit-id>
+
+## Result
+I got the password for Level 29.
+
+## What I learned
+- Git commit history analysis
+- Viewing old versions of files
