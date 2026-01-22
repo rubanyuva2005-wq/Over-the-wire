@@ -1,0 +1,21 @@
+# Bandit Level 31 → Level 32
+
+## What I did
+I bypassed Git ignore rules to add a hidden file and push it to the repository.
+
+## Commands I used
+git clone ssh://bandit31-git@localhost/home/bandit31-git/repo
+cd repo
+ls -a
+cat README.md
+git add -f key.txt
+git commit -m "Added key file"
+git push
+
+## Result
+I got the password for Level 32.
+
+## What I learned
+- How .gitignore works
+- Forcing Git to track ignored files
+- Basic Git workflow
