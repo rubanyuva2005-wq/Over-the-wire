@@ -1,0 +1,15 @@
+# Bandit Level 20 → Level 21
+
+## What I did
+I sent the password through a local TCP connection.
+
+## Commands I used
+nc -l 1234
+./suconnect 1234
+
+## Result
+I got the password for Level 21.
+
+## What I learned
+- Local TCP communication
+- Using netcat for networking tasks
