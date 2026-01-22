@@ -1,0 +1,14 @@
+# Bandit Level 19 → Level 20
+
+## What I did
+I executed a program with elevated privileges using a setuid binary.
+
+## Commands I used
+./bandit20-do cat /etc/bandit_pass/bandit20
+
+## Result
+I got the password for Level 20.
+
+## What I learned
+- Understanding setuid binaries
+- Privilege escalation basics
