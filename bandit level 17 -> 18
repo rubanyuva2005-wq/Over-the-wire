@@ -1,0 +1,14 @@
+# Bandit Level 17 → Level 18
+
+## What I did
+I compared two files to find the difference between them.
+
+## Commands I used
+diff passwords.old passwords.new
+
+## Result
+I got the password for Level 18.
+
+## What I learned
+- Comparing files using diff
+- Identifying changes between files
