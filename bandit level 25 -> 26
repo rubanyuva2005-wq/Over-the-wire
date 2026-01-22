@@ -1,0 +1,16 @@
+# Bandit Level 25 → Level 26
+
+## What I did
+I escaped from a restricted shell by abusing how the terminal handles screen resizing.
+
+## Commands I used
+ssh bandit25@bandit.labs.overthewire.org -p 2220
+ls
+more README
+
+## Result
+I gained access to a usable shell for the next level.
+
+## What I learned
+- How restricted shells work
+- Terminal behavior can be exploited
