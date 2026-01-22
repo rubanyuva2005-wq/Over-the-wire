@@ -1,0 +1,16 @@
+# Bandit Level 4 → Level 5
+
+## What I did
+I identified the only human-readable file among multiple files.
+
+## Commands I used
+ls
+file ./*
+cat ./-file07
+
+## Result
+I got the password for Level 5.
+
+## What I learned
+- How to identify file types
+- Using the file command
