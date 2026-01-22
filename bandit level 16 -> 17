@@ -1,0 +1,15 @@
+# Bandit Level 16 → Level 17
+
+## What I did
+I scanned a range of ports to find the correct SSL-enabled service.
+
+## Commands I used
+nmap localhost -p 31000-32000
+openssl s_client -connect localhost:<port>
+
+## Result
+I got the password for Level 17.
+
+## What I learned
+- Port scanning using nmap
+- Identifying SSL services
