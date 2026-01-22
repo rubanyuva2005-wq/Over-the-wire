@@ -1,0 +1,15 @@
+# Bandit Level 26 → Level 27
+
+## What I did
+I used a setuid binary to execute commands as another user.
+
+## Commands I used
+ls
+./bandit27-do cat /etc/bandit_pass/bandit27
+
+## Result
+I got the password for Level 27.
+
+## What I learned
+- How setuid binaries work
+- Privilege escalation basics
