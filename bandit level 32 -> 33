@@ -1,0 +1,15 @@
+# Bandit Level 32 → Level 33
+
+## What I did
+I escaped from a restricted uppercase shell to gain normal shell access.
+
+## Commands I used
+$0
+/bin/bash
+
+## Result
+I got access to a normal shell.
+
+## What I learned
+- How restricted shells work
+- Using environment variables to escape limitations
